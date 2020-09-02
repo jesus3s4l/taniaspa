@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tania Salon & Spa</title>
+    <title>Productos | Tania Salon & Spa</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="elementos_mn" id="enlaces">
-                    <a href="index.html" class="marcado">Inicio</a>
+                    <a href="index.html">Inicio</a>
                     <div class="sub_menu">
                         <a href="quienes-somos.html" class="op">Quienes somos</a>
                         <div class="sub_ops">
@@ -34,62 +34,15 @@
                         </div>
                     </div>
                     <a href="servicios.html">Servicios</a>
-                    <a href="productos.html">Productos</a>
+                    <a href="productos.html" class="marcado">Productos</a>
                     <a href="contactanos.html">Contactanos</a>
                 </div>
             </div>
         </nav>
     </header>
-
-    <div class="slider">
-        <div class="elemento_slider">
-            <div class="datos_slider">
-                <div class="dts_principal"></div>
-                <h1>Tania Salon & Spa</h1>
-                <p>Ayudandote con tu belleza</p>
-
-                <div class="btn" id="cita_llamada" onclick="llamada_para_cita();"><img src="img/ico_tel.png"> Haz una cita</div>
-            </div>
-
-            <div class="capa_oscurecer"></div>
-        </div>
-    </div>
     <!--cuerpo-->
-    <main>
+    <main class="sin_slider">
         <div class="contenedor contenedor_especial">
-            <div class="q_somos">
-                <h2>Quienes somos</h2>
-                <p>Un grupo de personas a cargo de mantener su belleza con diferentes servicios. Arreglo del cabello, maquillaje, tratamientos faciales, pedicura, manicura, masajes ...</p>
-
-                <a class="btn_reducido redondiar" href="quienes-somos.html">Seguir leyendo</a>
-            </div>
-
-            <div class="servicios">
-                <h2>Servicios</h2>
-
-                <div class="contenedor_servicios">
-                    <div class="h_servicio">
-                        <h3>Coloracion del futuro</h3>
-                        <img src="img/servicios/coloracion-del-futuro.jpg" alt="Coloracion del futuro">
-                        <a class="btn_reducido" href="#">Ver mas</a>
-                    </div>
-
-                    <div class="h_servicio">
-                        <h3>Tratamiento capilar</h3>
-                        <img src="img/servicios/tratamiento-capilar.jpg" alt="Tratamiento capilar">
-                        <a class="btn_reducido" href="#">Ver mas</a>
-                    </div>
-
-                    <div class="h_servicio">
-                        <h3>Maquillaje</h3>
-                        <img src="img/servicios/maquillaje.jpg" alt="Maquillaje">
-                        <a class="btn_reducido" href="#">Ver mas</a>
-                    </div>
-                </div>
-
-                <a class="btn_reducido redondiar" href="servicios.html">Mas servicios</a>
-            </div>
-
             <div class="servicios">
                 <h2>Productos</h2>
 
@@ -111,31 +64,24 @@
                         <img src="img/productos/fijador-barra-de-labios-5ml.jpg" alt="Fijador en barra 5ml">
                         <a class="btn_reducido" href="#">Ver mas</a>
                     </div>
-                </div>
 
-                <a class="btn_reducido redondiar" href="productos.html">Mas productos</a>
-            </div>
-        </div>
+                    <div class="h_servicio">
+                        <h3>esmalte clasico semilac</h3>
+                        <img src="img/productos/esmalte-clasico-semilac-197-color-care.jpg" alt="esmalte clasico semilac">
+                        <a class="btn_reducido" href="#">Ver mas</a>
+                    </div>
 
-        <div class="contactanos">
-            <div class="contenedor">
-                <h2>Contactanos</h2>
-                <form>
-                    <label for="ffname">Nombre completo: </label> <input type="text" id="ffname"><br>
-                    <label for="femail">Email: </label> <input type="text" id="femail"><br>
-                    <label for="fmensaje">Mensaje: </label> <textarea id="fmensaje"></textarea><br>
+                    <div class="h_servicio">
+                        <h3>crema hidratante manos</h3>
+                        <img src="img/productos/crema-hidratante-manos.jpg" alt="crema hidratante manos">
+                        <a class="btn_reducido" href="#">Ver mas</a>
+                    </div>
 
-                    <input type="reset" value="Limpiar"> <input type="submit" value="Enviar">
-                </form>
-            </div>
-            <div class="capa_contacto"></div>
-        </div>
-
-        <div class="contenedor contenedor_especial">
-            <div class="r_sociales">
-                <div class="contenedor_rsociales">
-                    <a href="#"><img src="img/icono_red_social/ico_facebook.png" alt="facebook | tania salon y spa"></a>
-                    <a href="#"><img src="img/icono_red_social/ico_youtube.png" alt="youtube | tania salon y spa"></a>
+                    <div class="h_servicio">
+                        <h3>spray higienizante pies</h3>
+                        <img src="img/productos/spray-higienizante-pies-195-ml.jpg" alt="spray higienizante pies">
+                        <a class="btn_reducido" href="#">Ver mas</a>
+                    </div>
                 </div>
             </div>
         </div>
